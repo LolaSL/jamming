@@ -1,0 +1,27 @@
+.SearchResults {
+  display: flex;
+  flex-direction: column;
+    width: 50%;
+    height: auto;
+    overflow-y: scroll;
+    align-items: center;
+    margin: 20px;
+    padding: 0.5rem;
+    background-color: rgba(1, 12, 63, 0.7);
+    box-shadow: 0 4px 2px 2px #000000;
+  }
+  h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+  }
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+  }
+  
+  @media only screen and (max-width: 1020px) {
+    .SearchResults {
+      width: 100%;
+      margin-bottom:2.rem;
+    }
+  }

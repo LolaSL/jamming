@@ -1,0 +1,24 @@
+body,
+html,
+#root {
+  height: 100%;
+}
+
+.App{
+  display: flex flex;
+  height: 100%;
+  padding: 0 17% 10% 17%;
+  background-image: url('./background.jpg');
+  opacity: 0.95;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  color: #56649f;  
+  text-align: center;
+}
+h1{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

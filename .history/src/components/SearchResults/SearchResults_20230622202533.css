@@ -1,0 +1,37 @@
+.SearchResults {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  overflow-y: scroll;
+  width: 38%;
+  max-height: 900px;
+  padding: 1.1rem;
+  background-color: rgba(88, 45, 144, 0.7);
+  box-shadow: 0 4px 2px 2px #000000;
+  gap: 10px;
+
+  }
+  h2{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;  
+    text-align: left;
+    font-size: 1.55rem;
+  }
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+  }
+  
+  @media only screen and (max-width: 1020px) {
+    .SearchResults {
+      width: 90%;
+      margin-bottom:2.5rem;
+    }
+  }
+
+  /* @media only screen and (max-width: 766px) {
+    .SearchResults {
+      width: 80%;
+      margin-bottom:2rem;
+    } */
+  /* } */

@@ -1,0 +1,22 @@
+body,
+html,
+#root {
+  height: 100%;
+}
+.container{
+
+}
+.app{
+  display: flex;
+  height: 100%;
+  padding: 0 17% 10% 17%;
+  background-image: url('./background.jpg');
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  color: #56649f;  
+  text-align: center;
+}
