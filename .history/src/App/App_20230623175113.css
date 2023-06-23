@@ -1,0 +1,71 @@
+body,
+html,
+#root {
+  height: 100%;
+
+}
+
+.App-container{
+  flex-wrap: wrap;
+  height: 150%;
+  padding: 0 17% 10% 17%;
+  background-image: url('./background.jpg');
+  opacity: 0.95;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  color: #56649f;  
+  text-align: center;
+  max-width: 100%;
+
+}
+h1{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  color: #ffffff;
+  font-size: 4rem;
+  margin-top: 60px;
+}
+.App-playlist{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: justify;
+  column-gap: 30px;
+  width:500px;
+  margin: 0 auto;
+
+}
+
+@media screen and (max-width: 400px) {
+  .App-container {
+    width: 70%;
+    height: auto;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .App-container {
+    width:75%;
+    height: auto;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 1220px) {
+  .TrackList {
+    width: 90%;
+    height: auto;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 1620px) {
+  .TrackList {
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+}

@@ -1,0 +1,85 @@
+body,
+html,
+#root {
+  height: 100%;
+
+}
+
+/* CSS for App-container */
+.App-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #6c41ec;
+  background-image: url('./background.jpg');
+  height: 150%;
+  padding: 0 17% 10% 17%;
+  opacity: 0.95;
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  color: #56649f;  
+  text-align: center;
+}
+
+/* CSS for h1 */
+h1 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  color: #ffffff;
+  font-size: 4rem;
+  margin-top: 60px;
+}
+
+/* CSS for SearchBar */
+.SearchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* CSS for App-playlist */
+.App-playlist {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap:80px;
+  align-items: justify;
+  margin: 60px auto;
+}
+
+/* CSS for SearchResults and Playlist components */
+.SearchResults,
+.Playlist {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px rgba(9, 3, 15, 0.488);
+}
+
+@media (max-width: 800px) {
+  /* CSS for App-container */
+  .App-container {
+    padding: 10px;
+    font-size: 14px;
+    
+  }
+  /* CSS for h1 */
+  h1 {
+    font-size: 3rem;
+    margin-top: 40px;
+    text-shadow: 1px 2px 3px rgba(112, 30, 189, 0.488);
+    opacity: 0.4
+  }
+  /* CSS for App-playlist */
+  .App-playlist {
+    grid-gap: 40px;
+    margin: 40px auto;
+    gap:-40px;
+  }
+}

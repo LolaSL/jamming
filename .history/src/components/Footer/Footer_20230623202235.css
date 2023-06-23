@@ -1,0 +1,27 @@
+
+    .footer{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;   background-color: rgba(108, 65, 233, .7);
+      }
+
+    .infoText {
+        font-size: 30px;
+        line-height: 20px;
+        opacity: 0.5;
+        text-align: center;
+        align-items:center;
+       width: auto;
+        margin-bottom: 0;
+        color: #ffffff;
+        /* opacity: 0.9; */
+         }
+         .copyright{
+        color: #ffffff;
+        opacity: 0.9;
+        padding: 10px;
+         }
+    
+       
+    

@@ -1,0 +1,40 @@
+/* CSS for SearchBar form */
+.SearchBar {
+  display: flex;
+  align-items: center;
+  margin-top: 60px;
+}
+
+/* CSS for input */
+.SearchBar input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  font-size: 16px;
+  margin-right: 10px;
+  width:  300px;
+  opacity: 0.45;
+  z-index: 1;
+  
+}
+
+/* CSS for button */
+.SearchBar button {
+  padding: 10px 20px;
+  background-color: #6c41ec;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+/* CSS for button hover effect */
+.SearchBar button:hover {
+  background-color: rgba(108, 65, 233, 0.7);
+}
+
+
+

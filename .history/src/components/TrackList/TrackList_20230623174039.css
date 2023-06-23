@@ -1,0 +1,30 @@
+.TrackList {
+    width: 100%;
+    overflow-y: scroll;
+  }
+
+  @media screen and (min-width: 400px) {
+    .TrackList {
+      width: 70%;
+      height: auto;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    .Playlist {
+      width:75%;
+      height: auto;
+    }
+  }
+  @media only screen and (max-width: 1220px) {
+    .Playlist {
+      width: 90%;
+      height: auto;
+    }
+  }
+  @media only screen and (max-width: 1620px) {
+    .Playlist {
+      width: 100%;
+      height: auto;
+    }
+  }

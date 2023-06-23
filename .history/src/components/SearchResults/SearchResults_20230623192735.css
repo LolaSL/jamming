@@ -1,0 +1,60 @@
+.SearchResults {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  overflow-y: scroll;
+  width: 38%;
+  max-height: 900px;
+  padding: 1.1rem;
+  background-color: rgba(40, 9, 80, 0.7);
+  box-shadow: 0 4px 2px 2px #000000;
+  gap: 10px;
+
+  }
+  h2{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;  
+    text-align: left;
+    font-size: 1.55rem;
+  }
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent;
+  }
+
+ @media only screen and (max-width: 1020px) {
+    .SearchResults {
+      width: 90%;
+      margin-bottom:2.5rem;
+    }
+  } 
+
+ @media screen and (min-width: 400px) {
+    .SearchResults {
+      width: 70%;
+      margin-bottom:1.5rem;
+      align-items: center;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    .SearchResults {
+      width:75%;
+      margin-bottom:2rem;
+      align-items: center;
+    }
+  }
+  @media only screen and (max-width: 1220px) {
+    .SearchResults {
+      width: 90%;
+      margin-bottom:2.5rem;
+      align-items: center;
+    }
+  }
+  @media only screen and (max-width: 1620px) {
+    .SearchResults {
+      width: 100%;
+      margin-bottom:2.5rem;
+      align-items: center;
+    }
+  }

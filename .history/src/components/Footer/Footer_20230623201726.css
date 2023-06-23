@@ -1,0 +1,22 @@
+
+    .footer{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;   background-color: rgba(108, 65, 233, .7);
+      }
+
+
+    .infoText {
+        font-size: 30px;
+        line-height: 20px;
+        opacity: 0.5;
+        text-align: center;
+        align-items:center;
+       min-width: 800px;
+        margin-bottom: 20px;
+     
+    }
+    
+       
+    

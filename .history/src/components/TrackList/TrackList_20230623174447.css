@@ -1,0 +1,33 @@
+.TrackList {
+    width: 100%;
+    overflow-y: scroll;
+  }
+
+  @media screen and (min-width: 400px) {
+    .TrackList {
+      width: 70%;
+      height: auto;
+      align-items: center;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    .TrackList {
+      width:75%;
+      height: auto;
+      align-items: center;
+    }
+  }
+  @media only screen and (max-width: 1220px) {
+    .TrackList {
+      width: 90%;
+      height: auto;
+      align-items: center;
+    }
+  }
+  @media only screen and (max-width: 1620px) {
+    .TrackList {
+      width: 100%;
+      height: auto;
+    }
+  }
