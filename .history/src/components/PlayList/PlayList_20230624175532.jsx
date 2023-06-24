@@ -12,6 +12,7 @@ const Playlist = ({
   const handleNameChange = useCallback((event) => {
     onNameChange(event.target.value);
   }, [onNameChange]);
+
   return (
     <div className="Playlist" data-testid = "playlist-test">
       <input onChange={handleNameChange} defaultValue={"New Playlist"} />
