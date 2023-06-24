@@ -39,8 +39,11 @@
     ]
   }, 
   "proxy": {
-
+    "/auth/*": {
+      "target": "https://accounts.spotify.com/authorize?"
+    },
+    "/api/*": {
       "target": "http://localhost:3000/'"
     }
-  
+  }
 }

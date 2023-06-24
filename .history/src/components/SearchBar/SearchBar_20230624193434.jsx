@@ -9,10 +9,13 @@ const SearchBar = ({ onSearch }) => {
     setTerm(event.target.value);
   }, []);
 
-  const search = useCallback(() => {
-    // event.preventDefault();
-    onSearch(term);
-  }, [onSearch, term]);
+  const search = useCallback(
+    (event) => {
+      // event.preventDefault();
+      onSearch(term);
+    },
+    [onSearch, term]
+  );
 
   return (
     <div className="SearchBar">

@@ -39,8 +39,11 @@
     ]
   }, 
   "proxy": {
-
-      "target": "http://localhost:3000/'"
+    "/auth/*": {
+      "target": "http://localhost:5000"
+    },
+    "/api/*": {
+      "target": "http://localhost:3090"
     }
-  
+  }
 }
